@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Professor</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/adminPanel.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="menu-title">PANELL PROFESSOR</div>
+        <a href="./passarLlista.html"><div class="menu-item">PASSAR LLISTA</div></a>
+        <a href="../index.html"><div class="menu-item"><img class="logout" src="../photos/door.png"></div></a>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h2>PROJECTES ACTIUS</h2>
+            <input type="text" class="search-bar" placeholder="BUSCAR PROJECTE">
+        </div>
+
+        <div class="projects-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>CURS</th>
+                        <th>NOM</th>
+                        <th>%</th>
+                        <th>DATA FINAL</th>
+                        <th>ESTAT</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>DAW2</td>
+                        <td>PR1</td>
+                        <td class="percentage">5%</td>
+                        <td>30/04</td>
+                        <td><span class="status">EN PROCÉS</span></td>
+                        <td><a href="./professorModProj.html"><img src="../photos/engranatge.png"></a></td>
+                    </tr>
+                    <tr>
+                        <td>SMX1</td>
+                        <td>PR2</td>
+                        <td class="percentage">25%</td>
+                        <td>15/05</td>
+                        <td><span class="status">EN PROCÉS</span></td>
+                        <td><a href="./professorModProj.html"><img src="../photos/engranatge.png"></a></td>
+                    </tr>
+                    <tr>
+                        <td>ASIX2</td>
+                        <td>PR3</td>
+                        <td class="percentage">50%</td>
+                        <td>20/06</td>
+                        <td><span class="status">COMPLETAT</span></td>
+                        <td><a href="./professorModProj.html"><img src="../photos/engranatge.png"></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

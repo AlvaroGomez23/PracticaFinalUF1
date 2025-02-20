@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: var(--backgroundsFormsColor);
+}
+
+.sidebar {
+    width: 15.625rem;
+    background: var(--thirdColor);
+    padding: 1.5625rem;
+    color: white;
+}
+
+.menu-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.875rem;
+    color: var(--primaryColor);
+}
+
+.menu-item {
+    padding: 0.9375rem;
+    margin: 0.625rem 0;
+    background: var(--secondaryColor);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    background: #3d566e;
+}
+
+.main-content {
+    flex: 1;
+    padding: 1.875rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+
+.search-bar {
+    width: 18.75rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 1.5625rem;
+    background: white;
+}
+
+.projects-table {
+    width: 100%;
+    background: white;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.9375rem;
+    text-align: left;
+    border-bottom: 0.0625rem solid #eee;
+}
+
+th {
+    background: var(--primaryColor);
+    color: white;
+}
+
+img {
+    max-width: 1.5rem;
+}
+
+.logout {
+    max-width: 10rem;
+    position: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.percentage {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.status {
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.9375rem;
+    font-size: 0.8rem;
+    background: #f1c40f;
+    color: white;
+    display: inline-block;
+}
+
+.status-ended {
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.9375rem;
+    font-size: 0.8rem;
+    background: var(--primaryColor);
+    color: white;
+    display: inline-block;
+}

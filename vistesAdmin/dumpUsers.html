@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Usuaris</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f2f5;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .menu-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .menu-item {
+            display: block;
+            width: 100%;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .menu-item:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .reset {
+            background-color: #dc3545;
+        }
+
+        .reset:hover {
+            background-color: #bb2d3b;
+        }
+
+        .tornar {
+            background-color: #6c757d;
+        }
+
+        .tornar:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <button class="menu-item">AFEGIR USUARIS</button>
+        <button class="menu-item reset">RESETUSUARIS</button>
+        <a href="./adminPanel.html"><button class="menu-item tornar">TORNAR</button></a>
+    </div>
+</body>
+</html>

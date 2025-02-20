@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passar Llista</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/tables.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PASSAR LLISTA</h1>
+        
+        <div class="date-fields">
+            <div class="date-group">
+                <label>Horari:</label>
+                <select>
+                    <option value="DAW2">Dimarts 1 - 17:30</option>
+                    <option value="DAW1">DAW1</option>
+                    <option value="ASIX">ASIX</option>
+                </select>
+            </div>
+            <div class="date-group">
+                <label>Clonar assistència:</label>
+                <select>
+                    <option value=""></option>
+                    <option value="DAW2">Dimarts 1 - 17:30</option>
+                    <option value="DAW1">Dimarts 1 - 18:30</option>
+                    <option value="ASIX">Dimecres 2 - 15:00</option>
+                </select>
+            </div>
+        </div>
+
+        
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>NOM A</th>
+                    <th>PRESENT</th>
+                    <th>OBS.</th>
+                    <th>ASSISTÊNCIA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AL1</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="text" class="obs-input"></td>
+                    <td class="attendance-red">65%</td>
+                </tr>
+                <tr>
+                    <td>AL2</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="text" class="obs-input"></td>
+                    <td class="attendance">90%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="back-button-container">
+        <form action="./professorPanel.html">
+            <button type="submit" class="back-button">Tornar</button>
+        </form>
+    </div>
+</body>
+</html>

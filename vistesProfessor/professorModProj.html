@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin MODIFICAR Projecte</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/adminFormsProj.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MODIFICAR PROJECTE</h1>
+            <div class="project-preview">
+                <div class="project-header">
+                    <span class="course-tag">DAW2</span>
+                    <span class="percentage">70%</span>
+                </div>
+                <h2>NOM PROJECTE</h2>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="project-dates">
+                    <span>30/01</span>
+                    <span>-</span>
+                    <span>30/04</span>
+                </div>
+            </div>
+        </header>
+
+        <form>
+            <div class="course-selector">
+                <div class="input-group">
+                    <label>CURS</label>
+                    <select aria-readonly="true">
+                        <option value="DAW2">DAW2</option>
+                        <option value="DAW1">DAW1</option>
+                        <option value="ASIX">ASIX</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-grid">
+                <div class="input-group">
+                    <label>NOM PROJECTE</label>
+                    <input type="text">
+                </div>
+                <div class="input-group">
+                    <label>% DE PUNTUACIÓ</label>
+                    <input type="number">
+                </div>
+                <div class="input-group">
+                    <label>DATA INICI</label>
+                    <input type="date">
+                </div>
+                <div class="input-group">
+                    <label>DATA FINAL</label>
+                    <input type="date">
+                </div>
+            </div>
+            <button type="submit" class="add-button">MODIFICAR PROJECTE</button>
+        </form>
+        <form action="./professorPanel.html">
+            <button type="submit" class="add-button">TORNAR</button>
+        </form>
+    </div>
+</body>
+</html>
